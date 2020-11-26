@@ -1,0 +1,7 @@
+create table bahan (
+    id int not null auto_increment,
+    nama varchar(30) not null,
+    harga_satuan int not null default 0,
+    kadaluarsa date not null,
+    primary key (id)
+)
