@@ -6,4 +6,11 @@ const connection = mysql.createConnection({
     database: 'wwsupplier'
 })
 
+connection.connect(function(e) {
+    if (e) {
+      console.log(e)
+      throw e
+    }
+})
+
 exports.connection = connection;
