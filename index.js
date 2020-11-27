@@ -25,7 +25,7 @@ app.get('/list', (req, res) => {
   }
 })
 
-app.post('/buy', (req, res) => {
+app.post('/buy-bahan', (req, res) => {
   console.log("buy bahan")
   let uang = req.body.uang
   let list_bahan = req.body.list_bahan
