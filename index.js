@@ -1,9 +1,11 @@
 const express = require('express')
-var bodyParser = require('body-parser');
+var bodyParser = require('body-parser')
 const { connection } = require('./db.js')
-const port = 3000
+const cors = require('cors')
+const port = 8082
 
 const app = express()
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
