@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 app.get('/list', (req, res) => {
   console.log('oke')
   try {
-    const query = req.query.harga ? "SELECT id, nama FROM bahan" : "SELECT * FROM bahan"
+    const query = req.query.harga ? "SELECT * FROM bahan" : "SELECT id, nama FROM bahan"
     const query_result = connection.query(query, function(err, rows, fields) {
       res.send(rows)
       console.log(rows)
