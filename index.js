@@ -1,7 +1,7 @@
 const express = require('express')
 var bodyParser = require('body-parser');
 const { connection } = require('./db.js')
-const port = 3000
+const port = 8082
 
 const app = express()
 app.use(bodyParser.json());
