@@ -5,7 +5,7 @@ Web Service - REST - Node.js
 WS-Supplier merupakan web service yang berlaku sebagai supplier bahan-bahan mentah. Web Service ini dibuat menggunakan Node.Js dan express.js
 
 ## Basis Data yang Digunakan
-Web Service ini menggunakan basisdata MySQL yang skemanya terdapat pada data/database.txt. Pengguna juga dapat mengimport database yang ada pada data/wwsupplier.sql sebagai data awal.
+Web Service ini menggunakan basisdata MySQL yang skemanya terdapat pada [data/database.txt](../database.txt). Pengguna juga dapat mengimport database yang ada pada [data/wwsupplier.sql](../wwsupplier.sql) sebagai data awal.
 
 ## Cara Menjalankan Web Service
 1. Clone repository ini
