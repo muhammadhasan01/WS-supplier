@@ -9,7 +9,7 @@ Web Service ini menggunakan basisdata MySQL yang skemanya terdapat pada [data/da
 
 ## Cara Menjalankan Web Service
 1. Clone repository ini
-2. Jalankan dengan command `node index.js`
+2. Pastikan Anda sudah menginstall [NodeJS](https://nodejs.org/en/), jika sudah jalankan dengan command `node index.js`
 3. Buka [localhost:8082](http://localhost:8082)
 
 ## Author
